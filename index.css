@@ -1,0 +1,76 @@
+header{
+    
+    display: flex;
+    background-color:hsl(7, 96%, 28%);
+    justify-content: space-between;align-items: center;
+    border-bottom: solid;
+    border-color: white;
+
+
+
+}
+img{
+    border-radius: 50px;
+    height: 60px;
+    margin-left: 10px;
+    border: solid;
+    border-color: black;
+}
+img:hover{
+    transform: scale(6);
+    
+}
+nav a{
+
+    margin: 0.2rem;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-right: 20px;
+
+    
+}
+nav a:hover{
+    color: rgb(4, 117, 93);
+    text-decoration:underline;
+    background-color:white;
+    border-radius: 5px;
+
+}
+.princ{
+    width: auto;
+    height: 500px;
+    background-color: rgb(26, 24, 24);
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+
+}
+h1:hover{
+    color:red;
+    cursor: pointer;
+    transform:scaleX(2);
+    transition: all 1500ms;
+
+}
+.conteneur{
+        display: block;
+}
+.service{
+    width: 960;
+    background-color: #1A2E35;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    color: white;
+    margin: 60px;
+}
+.service:hover {
+    color:yellow;
+    background-color:midnightblue;
+    transform: scale(1.2);
+    transition: all 1500ms;
+}
