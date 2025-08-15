@@ -2,8 +2,11 @@ body{
 
 }
 header{
-    width: 100%;
+    width: 100%;;
     max-width: 100%;
+    height: 20px;
+    margin: auto;
+    padding: 2rem 0;
     display: flex;
     background-color:hsl(194, 93%, 11%);
     justify-content: space-between;align-items: center;
@@ -59,6 +62,7 @@ h1{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
+    
 
 }
 h1:hover{
@@ -66,26 +70,29 @@ h1:hover{
     cursor: pointer;
     transform:scaleX(2);
     transition: all 1500ms;
-
-
-}
-.conteneur{
-        display: flex;
-        
 }
 .service{
-    width: 100%;
-    height: 100%;
+    display: inline-flexbox;
+    flex-direction: column;
     background-color: #0a1d24;
-
     padding: 2rem;
     box-shadow: 2px 4px tomato ;
     border-radius: 80px 2px 80px 2px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
     color: white;
-    margin: 60px;
-    gap: 3rem;
-     animation: anim 10s infinite ease-in-out;
+    animation: anim 10s infinite ease-in-out;
+}
+.tit{
+    display: inline-block;
+    color: tomato;
+    text-align: center;
+    border: dashed 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 6px;
+
 }
 .service:hover {
     color:yellow;
@@ -116,8 +123,5 @@ h1:hover{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     color: tomato;
+    
 }
-
-
-
-
