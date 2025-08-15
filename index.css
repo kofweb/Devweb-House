@@ -2,7 +2,8 @@ body{
 
 }
 header{
-    
+    width: 100%;
+    max-width: 100%;
     display: flex;
     background-color:hsl(194, 93%, 11%);
     justify-content: space-between;align-items: center;
@@ -115,3 +116,4 @@ h1:hover{
     font-weight: bolder;
     color: tomato;
 }
+
