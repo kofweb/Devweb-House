@@ -74,7 +74,7 @@ h1:hover{
         
 }
 .service{
-    width: 960;
+    width: 100%;
     background-color: #0a1d24;
 
     padding: 2rem;
@@ -100,7 +100,7 @@ h1:hover{
     
 }
 #about{
-    width: 960px;
+    width: 100%;
     color: white;
     font-size: 20px;
     background-color: #0a1d24;
@@ -116,4 +116,5 @@ h1:hover{
     font-weight: bolder;
     color: tomato;
 }
+
 
