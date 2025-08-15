@@ -1,22 +1,25 @@
+body{
+
+}
 header{
     
     display: flex;
-    background-color:hsl(7, 96%, 28%);
+    background-color:hsl(194, 93%, 11%);
     justify-content: space-between;align-items: center;
     border-bottom: solid;
-    border-color: white;
+    border-color: tomato;
 
 
 
 }
-img{
+.logo{
     border-radius: 50px;
     height: 60px;
     margin-left: 10px;
     border: solid;
     border-color: black;
 }
-img:hover{
+.logo:hover{
     transform: scale(6);
     
 }
@@ -32,45 +35,83 @@ nav a{
     
 }
 nav a:hover{
-    color: rgb(4, 117, 93);
-    text-decoration:underline;
-    background-color:white;
+    color: black;
+    text-decoration: none;
+    background-color:yellow;
     border-radius: 5px;
 
 }
 .princ{
-    width: auto;
-    height: 500px;
-    background-color: rgb(26, 24, 24);
+    height: 468px;
+    background-image: url(ground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid 10px;
+    border-color: tomato;
+    
+   
 }
+
 h1{
+    
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
 
 }
 h1:hover{
-    color:red;
+    color:tomato;
     cursor: pointer;
     transform:scaleX(2);
     transition: all 1500ms;
 
+
 }
 .conteneur{
-        display: block;
+        display: flex;
+        
 }
 .service{
     width: 960;
-    background-color: #1A2E35;
-    padding: 1rem;
-    border-radius: 8px;
+    background-color: #0a1d24;
+
+    padding: 2rem;
+    box-shadow: 2px 4px tomato ;
+    border-radius: 80px 2px 80px 2px;
     margin-bottom: 1rem;
     color: white;
     margin: 60px;
+    gap: 3rem;
+     animation: anim 10s infinite ease-in-out;
 }
 .service:hover {
     color:yellow;
     background-color:midnightblue;
-    transform: scale(1.2);
-    transition: all 1500ms;
+    box-shadow: 2px 4px black ;
+   
+}
+@keyframes anim{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1);}
+
+    
+}
+#about{
+    width: 960px;
+    color: white;
+    font-size: 20px;
+    background-color: #0a1d24;
+    padding: 2rem;
+    box-shadow: 2px 4px tomato;
+    border-radius: 20px;
+    align-content: center;
+    margin: 2rem auto; /* Ajoute cette ligne pour centrer */
+}
+.abouts{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: tomato;
 }
