@@ -31,7 +31,7 @@ nav a{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
-    margin-right: 20px;
+    padding-right: 20px;
 
     
 }
@@ -116,5 +116,6 @@ h1:hover{
     font-weight: bolder;
     color: tomato;
 }
+
 
 
